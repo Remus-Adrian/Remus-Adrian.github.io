@@ -1,0 +1,89 @@
+* {
+	padding:0;
+	margin:20;
+}
+nav {
+	background-color: black;
+	height: 100px;
+	
+}
+nav ul {
+	border: 1px solid red;
+	height: 55px;
+	
+	border-bottom: : 1.5px solid red;
+	
+	
+}
+nav ul li {
+	
+	width: 229.7px;
+	float: left;
+	border-left: 1.5px solid yellow;
+	text-align: center;
+}
+nav ul li a.active {
+    background-color: #0000FF;
+    color: red;
+}
+li a {
+	
+	color: yellow;
+	line-height: 55px;
+	display: block;
+	
+}
+li a:hover {
+	color: yellow;
+	background-color: green;
+}
+#reviews-container {
+    display: left;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.reviews-box {
+    width: 205px;
+    height: 205px;
+    background-color: #ADD8E6;
+    margin: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reviews-title {
+    margin-bottom:8px;
+    font-style:italic;
+   
+}
+   
+}
+.reviews-box {
+	
+	margin: 10px;
+	float: left;
+	display: flex;
+	align-items: cente
+}
+.reviews-container {
+	clear: both;
+}
+.reviews-box {
+	width: calc(20%);
+	margin: 5px;
+	float: left;
+}
+	 
+	 
+}
+.reviews-title {
+   font-family: "Lucida Console", "Courier New", monospace;
+   font-size: 20px;
+   font-weight: 700;
+}

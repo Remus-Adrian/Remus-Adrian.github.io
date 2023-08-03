@@ -1,0 +1,97 @@
+
+* {
+	padding:0;
+	margin:0;
+}
+nav {
+	background-color: black;
+	height: 100px;
+	
+}
+nav ul {
+	border: 1px solid red;
+	height: 55px;
+	
+	border-bottom: : 1.5px solid red;
+	
+	
+}
+nav ul li {
+	
+	width: 250px;
+	float: left;
+	border-right: 1.5px solid yellow;
+	text-align: center;
+}
+nav ul li a.active {
+    background-color: #0000FF;
+    color: red;
+}
+li a {
+	
+	color: yellow;
+	line-height: 55px;
+	display: block;
+	
+}
+li a:hover {
+	color: yellow;
+	background-color: green;
+	
+}
+.text1 {
+	font-size:25px;
+	margin:45px;
+}
+#cuisine-container {
+    display: left;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.cuisine-box {
+    width: 205px;
+    height: 205px;
+    background-color: #FFBF00;
+    margin: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cuisine-title {
+    margin-bottom:8px;
+    font-style:italic;
+   
+}
+   
+}
+.cuisine-box {
+	
+	margin: 10px;
+	float: left;
+	display: flex;
+	align-items: cente
+}
+.cuisine-container {
+	clear: both;
+}
+.cuisine-box {
+	width: calc(20%);
+	margin: 5px;
+	float: left;
+}
+.Allergy {
+	 float:top-right;
+	 
+	 
+}
+.cuisine-title {
+   font-family: "Lucida Console", "Courier New", monospace;
+   font-size: 20px;
+   font-weight: 700;
+}

@@ -1,0 +1,108 @@
+* {
+	padding:0;
+	margin:20;
+}
+nav {
+	background-color: black;
+	height: 100px;
+	
+}
+nav ul {
+	border: 1px solid red;
+	height: 55px;
+	
+	border-bottom: : 1.5px solid red;
+	
+	
+}
+nav ul li {
+	width: 289px;
+	float: left;
+	border-left: 1.5px solid yellow;
+	text-align: center;
+}
+nav ul li a.active {
+    background-color: #0000FF;
+    color: red;
+}
+li a {
+	
+	color: yellow;
+	line-height: 55px;
+	display: block;
+	
+}
+li a:hover {
+	color: yellow;
+	background-color: green;
+}
+
+* {box-sizing:border-box}
+
+
+.slide-container{
+  max-width: 1000px;
+  position: static;
+  margin: 100px;
+}
+
+
+.SlideShow {
+  display: none;
+}
+
+
+
+
+/* Caption text */
+.text {
+  color: #FF0000;
+  font-size: 25px;
+  padding: 10px;
+  position: absolute;
+  
+  width: 75%;
+  text-align: justify;
+ 
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #FF0000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  margin: 0 2px;
+  background-color: #FF0000;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.1s ease;
+}
+@media only screen and (max-width: 350px) {
+    .text {
+        font-size: 12px;
+    }
+}
+
+.active, .dot:hover {
+  background-color: #ffff33;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
